@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container h1 {
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255, 0.5);
+  z-index: 3;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+nav .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0;
+  text-align: left;
+  padding: 0px;
+}
+nav .container ul li {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+nav .container ul li.active {
+  background-color: rgb(206, 164, 173);
+  transition: 0.3s ease background-color;
+}
+nav .container ul li.active a {
+  color: rgb(255, 255, 255);
+}
+
+html {
+  background: #e6e6e6;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15%;
+  display: flex;
+}
+
+section {
+  padding-bottom: 120px;
+}
+
+#about {
+  font-size: 24px;
+
+  p {
+    color:rgb(116, 130, 151);
+  }
+
+  b {
+    font-weight: 800;
+    color:rgb(20, 44, 80);
+  }
+}
+
+.title {
+  float: left; 
+  width: 20%; 
+}
+
+.blurb {
+  float: left; 
+  width: 80%; 
+  padding-bottom: 100px;
+  color:rgb(116, 130, 151);
+}
+
+@media (max-width: 800px) {
+#background {
+  flex-direction: column;
+}
+ProjectCard {
+  flex-direction: column;
+}
+
+.title,
+.blurb {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 14px;
+}
+}
+
+.experience-entry {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px; /* Adjust as needed for spacing between entries */
+}
+
+.experience-text {
+  flex: 1;
+}
+
+.experience-title {
+  margin-bottom: -10px; /* Adjust as needed for spacing between title and subtitle */
+}
+
+.experience-date {
+  text-align: right;
+  color: #666; /* Adjust color as needed */
+}
+
+.project-container img p {
+  max-width: 10px
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-image {
+  width: 70%;
+  flex: 80%;
+  margin-bottom: 10px;
+}
+
+.project-details {
+  flex: 30%;
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+.buttons {
+  margin-top: 15px;
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.buttons a:hover {
+  background-color: #2980b9;
+}
+
+#experience {
+  padding-top: 150px;
+}
+
+.technology-pills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technology-pill {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 0.5rem;
+  margin-right: 0.2rem;
+  border-radius: 0.3rem;
+  font-size: 12px;
+}
