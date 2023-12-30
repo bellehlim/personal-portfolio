@@ -1,43 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.container h1 {
-  text-align: center;
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  background-color: rgb(255, 255, 255, 0.5);
-  z-index: 3;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-nav .container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0;
-  text-align: left;
-  padding: 0px;
-}
-nav .container ul li {
-  display: inline-block;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-nav .container ul li a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 20px;
-  color: black;
-}
-nav .container ul li.active {
-  background-color: rgb(206, 164, 173);
-  transition: 0.3s ease background-color;
-}
-nav .container ul li.active a {
-  color: rgb(255, 255, 255);
-}
-
 html {
   background: #e6e6e6;
   font-family: 'Montserrat', sans-serif;
@@ -50,21 +12,26 @@ section {
 }
 
 #about {
-  font-size: 24px;
+  font-size: 20px;
+}
 
-  p {
-    color:rgb(116, 130, 151);
-  }
+p {
+  color:rgb(116, 130, 151);
+}
 
-  b {
-    font-weight: 800;
-    color:rgb(20, 44, 80);
-  }
+b {
+  font-weight: 800;
+  color:rgb(20, 44, 80);
 }
 
 .title {
+  margin: 0px;
   float: left; 
   width: 20%; 
+  font-size: 16px;
+  font-weight: 800;
+  color:rgb(20, 44, 80);
+  margin-bottom: 20px;
 }
 
 .blurb {
@@ -72,42 +39,32 @@ section {
   width: 80%; 
   padding-bottom: 100px;
   color:rgb(116, 130, 151);
-}
-
-@media (max-width: 800px) {
-#background {
-  flex-direction: column;
-}
-ProjectCard {
-  flex-direction: column;
-}
-
-.title,
-.blurb {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  font-size: 14px;
-}
+  margin: 0px;
 }
 
 .experience-entry {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 20px; /* Adjust as needed for spacing between entries */
+  margin-bottom: 20px;
 }
 
 .experience-text {
   flex: 1;
+  font-size: 14px;
+  margin: 0px;
 }
 
-.experience-title {
-  margin-bottom: -10px; /* Adjust as needed for spacing between title and subtitle */
+
+.experience-subtitle {
+  flex: 1;
+  margin: 0px 18px;
+  font-size: 14px;
 }
 
 .experience-date {
   text-align: right;
+  font-size: 14px;
   color: #666; /* Adjust color as needed */
 }
 
@@ -133,6 +90,33 @@ ProjectCard {
   text-align: left;
   font-size: 12px;
 }
+
+@media (max-width: 800px) {
+
+  .title, .blurb {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 14px;
+  }
+  .title {
+    font-size: 16px;
+    font-weight: 800;
+    color:rgb(20, 44, 80);
+    margin-bottom: 20px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-image {
+    width: 100%;
+    flex: none;
+  }
+}
+
 .buttons {
   margin-top: 15px;
 }
@@ -161,10 +145,11 @@ ProjectCard {
 }
 
 .technology-pill {
-  background-color: #e0e0e0;
+  background-color: #cecdcd;
   color: #333;
-  padding: 0.5rem;
+  padding: 0.3rem;
   margin-right: 0.2rem;
-  border-radius: 0.3rem;
+  margin-top: 0.2rem;
+  border-radius: 10px;
   font-size: 12px;
 }

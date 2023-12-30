@@ -5,7 +5,6 @@ const ProjectCard = ({ project }) => {
   return (
     <div className="project-card">
       <img src={require(`../images/${image}`).default} alt={title} className="project-image" />
-      {/* <img src="https://notability.com/static/hero-ipad.png" className="project-image"/> */}
       <div className="project-details">
         <h3>{title}</h3>
         <p>{description}</p>

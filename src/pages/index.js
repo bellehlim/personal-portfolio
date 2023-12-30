@@ -11,9 +11,9 @@ import ProjectListItem from "../components/project-list-item"
           <main>
             <section id="about">
               <p>
-                Good morning/evening! I'm <b>Belle Lim</b>! 👩‍💻
+                Hi! I'm <b>Belle Lim</b>! 👩🏻‍💻
                 <br/><br/>
-                I am a software engineer passionate about making <b>elegant product designs</b> come to life that push the bounds! 
+                I am a software engineer passionate about making elegant product designs come to life that push the bounds for the greater good! 
                 <b> Tech is boundless</b>, and so is our ability to use it to help others.
                 <br/><br/>
                 If you want to work together, connect with me! <a href="mailto:bellehlim@gmail.com">bellehlim@gmail.com</a>
@@ -23,10 +23,11 @@ import ProjectListItem from "../components/project-list-item"
             <section id="background">
             <p class="title"> Background</p>
             <p class="blurb">
-              I'm currently a student at Northeastern University studying computer science with a concentration in Human-Centered Computing and set to graduate in May 2024.
-              I originally entered university studying mechanical engineering and spent my first year learning about the engineering design cycle. That mindset has since 
+              I'm currently a student at Northeastern University studying computer science with a concentration in human-centered computing and a 
+              minor in experience design. I am passionate about building polished products end-to-end that prioritize the user
               <br/><br/>
-              When I'm not in front of my laptop, you can find me wandering around Boston exploring the city, bouldering, hanging out with my dog, or cooking! (Check out my food IG @yummyinmybelley!)
+              When I'm not in front of my laptop, you can find me wandering around Boston or New York exploring the cities, bouldering, hanging out 
+              with my dog, or cooking! (Check out my food IG @yummyinmybelley!)
               </p>
             </section>
 
@@ -35,12 +36,12 @@ import ProjectListItem from "../components/project-list-item"
               <div class="blurb">
               {experiences.map((experience, index) => (
                 <div key={index} className="experience-entry">
-                <div className="experience-text">
-                  <p className="experience-title">{experience.title}</p>
-                  <p className="experience-subtitle">{experience.subtitle}</p>
+                  <div className="experience-text">
+                    <b className="experience-title">{experience.title}</b>
+                    <p className="experience-subtitle">{experience.subtitle}</p>
+                  </div>
+                  <p className="experience-date">{experience.date}</p>
                 </div>
-                <p className="experience-date">{experience.date}</p>
-              </div>
               ))}
               </div>
             </section>
@@ -65,4 +66,4 @@ import ProjectListItem from "../components/project-list-item"
       
       export default IndexPage
 
-      export const Head = () => <title>Home Page</title>
+      export const Head = () => <title>Belle Lim</title>

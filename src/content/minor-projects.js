@@ -49,5 +49,10 @@ const minorProjects = [
       description: "A program that converts raw SVG data points into its corresponding animation.",
       technologies: ["Java", "Object-Oriented Design"]
     },
+    {
+      title: "🏝️ Save Motunui",
+      description: "A program that converts raw SVG data points into its corresponding animation.",
+      technologies: ["MATLAB", "Arduino"]
+    },
   ]
   export default minorProjects;
