@@ -43,7 +43,7 @@ const IndexPage = () => {
         the big picture of the what and why of exciting new features. I am always ready to dive in and figure out the best solution from multiple angles to drive the best result! 
         <br/><br/>
         When I'm not in front of my laptop, you can find me wandering around Boston or New York exploring the cities, bouldering, hanging out 
-        with my dog, or cooking! (Check out my food IG @yummyinmybelley)
+        with my dog, or cooking! (Check out my food IG <a href="https://www.instagram.com/yummyinmybelley">@yummyinmybelley</a>)
         </div>
       </section>
 
@@ -53,7 +53,7 @@ const IndexPage = () => {
         {experiences.map((experience, index) => (
           <div key={index} className="experience-entry">
             <div className="experience-text">
-              <h3 className="experience-title">{experience.title}</h3>
+              <a href={experience.link}><h3 className="experience-title">{experience.icon} &nbsp; {experience.title}</h3></a>
               <p className="experience-subtitle">{experience.subtitle}</p>
             </div>
             <p className="experience-date">{experience.date}</p>

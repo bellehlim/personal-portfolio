@@ -27,7 +27,7 @@ nav .container ul li a {
   text-decoration: none;
   padding: 0px 15px;
   color: black;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 section {
@@ -54,6 +54,15 @@ p {
 
 b {
   font-weight: 700;
+}
+
+#about a {
+  color: #2980b9;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 .spacer {
@@ -126,12 +135,12 @@ b {
 .experience-subtitle {
   flex: 1;
   margin: 0px 18px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .experience-date {
   text-align: right;
-  font-size: 12px;
+  font-size: 14px;
   color: #666;
 }
 
@@ -151,7 +160,7 @@ b {
   flex: 30%;
   padding: 10px;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
   color:rgb(20, 44, 80);
 }
 
@@ -209,7 +218,7 @@ b {
     width: 30%;
   }
   .about-blurb {
-    font-size: 11px;
+    font-size: 14px;
     padding-left: 20px;
   }
   .about-blurb img {
@@ -229,7 +238,20 @@ b {
   }
 
   .title, .blurb, .experience-text, .experience-subtitle, .experience-date, .project-title {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .experience-entry {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    color:rgb(20, 44, 80);
+  }
+
+  .experience-date {
+    text-align: left;
+    color: #666;
   }
 }
 
@@ -253,7 +275,7 @@ b {
 
 .technology-pills {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:;
 }
 
 .technology-pill {
