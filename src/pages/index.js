@@ -37,7 +37,10 @@ const IndexPage = () => {
       <div class="blurb">
         I'm currently a student at Northeastern University studying computer science with a concentration in human-centered computing and a 
         minor in experience design graduating in May 2024. I am passionate about building polished products end-to-end that prioritize the user and have true, 
-        measurable impact. I am always ready to dive in and figure out the best solution from multiple angles to drive the best result! 
+        measurable impact. 
+        <br/><br/>
+        I have 2 years of industry experience developing impactful software where I worked closely alongside other teams to understand 
+        the big picture of the what and why of exciting new features. I am always ready to dive in and figure out the best solution from multiple angles to drive the best result! 
         <br/><br/>
         When I'm not in front of my laptop, you can find me wandering around Boston or New York exploring the cities, bouldering, hanging out 
         with my dog, or cooking! (Check out my food IG @yummyinmybelley)
@@ -50,7 +53,7 @@ const IndexPage = () => {
         {experiences.map((experience, index) => (
           <div key={index} className="experience-entry">
             <div className="experience-text">
-              <b className="experience-title">{experience.title}</b>
+              <h3 className="experience-title">{experience.title}</h3>
               <p className="experience-subtitle">{experience.subtitle}</p>
             </div>
             <p className="experience-date">{experience.date}</p>

@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=DM Serif Display');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=EB Garamond');
 
 html {
   background: #e6e6e6;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0px;
-  }
+}
 
 nav {
   position: fixed;
@@ -31,24 +32,28 @@ nav .container ul li a {
 
 section {
   padding: 15%;
-  padding-bottom: 120px;
 }
 
 #about {
-  font-size: 20px;
-  margin-bottom: 120px;
   display: flex;
   align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#about b {
+  font-weight: 700;
+  font-style: italic;
 }
 
 p {
   color:rgb(116, 130, 151);
-  margin-top:0px;
+  margin-top: 0px;
+  font-weight: 300;
 }
 
 b {
-  font-weight: 600;
-  font-style: italic;
+  font-weight: 700;
 }
 
 .spacer {
@@ -109,26 +114,26 @@ b {
   justify-content: space-between;
   width: 100%;
   margin-bottom: 20px;
+  color:rgb(20, 44, 80);
 }
 
-.experience-text {
-  flex: 1;
+.experience-title {
   font-size: 14px;
-  margin: 0px;
+  font-weight: 800;
+  margin: 0px
 }
 
 .experience-subtitle {
   flex: 1;
   margin: 0px 18px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .experience-date {
   text-align: right;
-  font-size: 14px;
+  font-size: 12px;
   color: #666;
 }
-
 
 .project-card {
   display: flex;
@@ -148,42 +153,6 @@ b {
   text-align: left;
   font-size: 12px;
   color:rgb(20, 44, 80);
-}
-
-@media (max-width: 500px) {
-  section {
-    padding: 10%;
-    padding-top: 80px;
-  }
-  #about {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  .about-photo {
-    float: left; 
-    width: 30%;
-  }
-  .about-blurb {
-    font-size: 11px;
-    padding-left: 20px;
-  }
-  .about-blurb img {
-    width: 70px;
-    object-fit: cover; 
-    object-position: 40% 40;
-    height: 25px;
-  }
-  .headline {
-    font-size: 14px;
-    margin-bottom: 0px;
-    color:rgb(20, 44, 80);
-  }
-  .underline {
-    margin-left: 35px;
-    margin-top: -10px;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -221,6 +190,46 @@ b {
   .project-image {
     width: 100%;
     flex: none;
+  }
+}
+
+@media (max-width: 500px) {
+  section {
+    padding: 10%;
+    padding-top: 80px;
+  }
+  #about {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .about-photo {
+    float: left; 
+    width: 30%;
+  }
+  .about-blurb {
+    font-size: 11px;
+    padding-left: 20px;
+  }
+  .about-blurb img {
+    width: 70px;
+    object-fit: cover; 
+    object-position: 40% 40;
+    height: 25px;
+  }
+  .headline {
+    font-size: 14px;
+    margin-bottom: 0px;
+    color:rgb(20, 44, 80);
+  }
+  .underline {
+    margin-left: 35px;
+    margin-top: -10px;
+  }
+
+  .title, .blurb, .experience-text, .experience-subtitle, .experience-date, .project-title {
+    font-size: 12px;
   }
 }
 

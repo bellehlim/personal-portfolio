@@ -12,7 +12,7 @@ const experiences = [
       length: "4 mos",
     },
     {
-      title: "🤝 Code4Community",
+      title: "🤝 Code 4 Community",
       subtitle: "Product Manager - Hands Across the Sea; This Star Won't Go Out",
       date: "Sept 2022 - present",
       length: "1.5 yrs",
