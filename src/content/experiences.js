@@ -12,28 +12,34 @@ const experiences = [
       length: "4 mos",
     },
     {
-      title: "✏️ Ginger Labs - Notability",
-      subtitle: "Software Engineer Co-op",
-      date: "Jul - Dec 2022",
-      length: "6 mos",
-    },
-    {
       title: "🤝 Code4Community",
       subtitle: "Product Manager - Hands Across the Sea; This Star Won't Go Out",
       date: "Sept 2022 - present",
       length: "1.5 yrs",
     },
     {
+      title: "✏️ Ginger Labs - Notability",
+      subtitle: "Software Engineer Co-op",
+      date: "Jul - Dec 2022",
+      length: "6 mos",
+    },
+    {
       title: "🏥 Wellframe",
-      subtitle: "Mobile Developer Co-op",
-      date: "Jul 2021 - May 2022",
-      length: "11 mos",
+      subtitle: "Part-time Mobile Developer Intern",
+      date: "Jan - May 2022",
+      length: "5 mos",
     },
     {
       title: "🌳 Alpha Phi Omega",
       subtitle: "Pledge Program Coordinator",
       date: "Jan - Apr 2022",
       length: "4 months",
+    },
+    {
+      title: "🏥 Wellframe",
+      subtitle: "Mobile Developer Co-op",
+      date: "Jul - Dec 2021",
+      length: "11 mos",
     },
     {
       title: "📡 Wild Star Group",

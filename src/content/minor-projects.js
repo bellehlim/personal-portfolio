@@ -1,7 +1,7 @@
 const minorProjects = [
     {
       title: "👋 Personal Portfolio Website",
-      description: "Designed and created this website to showcase all of my experience and projects!",
+      description: "Designed and created this website to showcase all of my experience and projects! Built with Gatsby.js and designed in InDesign with the goal of being clean, modular, and informative.",
       technologies: ["Gatsby", "JavaScript", "InDesign", "HTML", "CSS"]
     },
     {
@@ -10,8 +10,13 @@ const minorProjects = [
       technologies: ["Product Design", "Swift", "Redux", "Hackathon"]
     },
     {
+      title: "🔎 Zoom Tool",
+      description: "Collected user feedback about redesigned zoom tool, pushed on need for improvements to the tool, led sprint in both planning and development for UI and functional improvements. Developed both fixes to recent redesign as well as long term requests.",
+      technologies: ["Swift", "Product Management", "Sprint Management"]
+    },
+    {
       title: "🌟 Stickerability",
-      description: "Integrated CoreML into Notability app to enable smarter stickers that isolate the subject from the photo background.",
+      description: "Integrated CoreML into the Notability app to enable smarter stickers that isolate the subject from the photo background.",
       technologies: ["Swift", "CoreML", "Hackathon"]
     },
     {
@@ -26,22 +31,22 @@ const minorProjects = [
     },
     {
       title: "🥘 Seasoned Recipes",
-      description: "A full-stack website for users to discover recipes and find groups to share recipes with.",
-      technologies: ["Full Stack", "Web Development", "TypeScript"]
+      description: "Designed and implemented a full-stack social platform for users to discover recipes and find groups to share recipes with usting the Tasty API for recipes. Developed with a full user schema and abilities to bookmark, post, and follow recipes and Foodie Groups.",
+      technologies: ["Full Stack", "Web Development", "TypeScript", "MongoDB"]
     },
     {
       title: "🎶 Spotifriends",
-      description: "A new Notability feature that needed product direction, execution to develop, and polish to optimize performance.",
+      description: "Developed an application in the command line that allows for discovering friends with similar music tastes via the SpotiPy API. Designed with a full user schema backed by SQL.",
       technologies: ["Python", "Database Design", "SQL"]
     },
     {
       title: "📡 Radio Planner Tool",
-      description: "A new Notability feature that needed product direction, execution to develop, and polish to optimize performance.",
+      description: "Created a C++ tool to aid in the mapping process for radio placements.",
       technologies: ["C++", "MATLAB"]
     },
     {
       title: "💼 Where 2 Work",
-      description: "A new Notability feature that needed product direction, execution to develop, and polish to optimize performance.",
+      description: "Designed an application to help remote workers find new, crowd-sourced places to work. Iterated via user research, beta testing, and user interviews.",
       technologies: ["InDesign", "User Research", "Beta Testing"]
     },
     {
@@ -51,7 +56,7 @@ const minorProjects = [
     },
     {
       title: "🏝️ Save Motunui",
-      description: "A program that converts raw SVG data points into its corresponding animation.",
+      description: "Led design and development for a fully functional museum exhibit game showcased at the Boston Museum of Science.",
       technologies: ["MATLAB", "Arduino"]
     },
   ]

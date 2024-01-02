@@ -1,31 +1,92 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=DM Serif Display');
 
 html {
   background: #e6e6e6;
   font-family: 'Montserrat', sans-serif;
-  padding: 15%;
   display: flex;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  }
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #e6e6e6);
+  text-align: right;
+}
+nav .container ul li {
+  display: inline-block;
+}
+nav .container ul li a {
+  float: right;
+  text-decoration: none;
+  padding: 0px 20px;
+  color: black;
 }
 
 section {
+  padding: 15%;
   padding-bottom: 120px;
 }
 
 #about {
   font-size: 20px;
+  margin-bottom: 120px;
+  display: flex;
+  align-items: center;
 }
 
 p {
   color:rgb(116, 130, 151);
+  margin-top:0px;
 }
 
 b {
-  font-weight: 800;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.spacer {
+  height: 30px;
+  width: 100%;
+}
+
+.about-photo {
+  float: left; 
+  width: 30%;
+}
+
+.about-blurb {
+  float: left;
+  padding-left: 30px;
+  width: 60%; 
+  margin-top: 0px;
+
+  img {
+    width: 150px;
+    object-fit: cover; 
+    object-position: 40% 40;
+    height: 25px;
+  }
+}
+
+.headline {
+  font-family: 'DM Serif Display';
+  font-size: 30px;
+  margin-bottom: 0px;
   color:rgb(20, 44, 80);
 }
 
+.underline {
+  margin-left: 75px;
+  margin-top: -30px;
+}
+
 .title {
-  margin: 0px;
   float: left; 
   width: 20%; 
   font-size: 16px;
@@ -55,7 +116,6 @@ b {
   margin: 0px;
 }
 
-
 .experience-subtitle {
   flex: 1;
   margin: 0px 18px;
@@ -65,12 +125,9 @@ b {
 .experience-date {
   text-align: right;
   font-size: 14px;
-  color: #666; /* Adjust color as needed */
+  color: #666;
 }
 
-.project-container img p {
-  max-width: 10px
-}
 
 .project-card {
   display: flex;
@@ -89,15 +146,23 @@ b {
   padding: 10px;
   text-align: left;
   font-size: 12px;
+  color:rgb(20, 44, 80);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
   .title, .blurb {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     font-size: 14px;
+  }
+  .about-photo, .about-blurb {
+    font-size:14px;
+  }
+  #about {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .title {
     font-size: 16px;
@@ -133,10 +198,6 @@ b {
 
 .buttons a:hover {
   background-color: #2980b9;
-}
-
-#experience {
-  padding-top: 150px;
 }
 
 .technology-pills {

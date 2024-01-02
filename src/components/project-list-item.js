@@ -15,11 +15,6 @@ const ProjectListItem = ({ project }) => {
             </span>
           ))}
         </div>
-        {/* <div className="buttons">
-          <a href={readMoreLink} target="#" rel="noopener noreferrer">
-            Read More
-          </a>
-        </div> */}
       </div>
   );
 };
