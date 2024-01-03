@@ -5,7 +5,7 @@ const ProjectListItem = ({ project }) => {
 
   return (
     <div className="project-details">
-        <h3>{title}</h3>
+        <h3 className="project-title">{title}</h3>
         <p>{description}</p>
 
         <div className="technology-pills">

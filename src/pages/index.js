@@ -25,7 +25,7 @@ const IndexPage = () => {
           <p class="headline"> Hi, I'm <b>Belle Lim</b> 👩🏻‍💻 </p>
           <img src="https://cdn1.iconfinder.com/data/icons/hand-drawn-marker/512/line_marker23-512.png"class="underline"/>
           <p>
-            I am a user-driven software developer and product strategist passionate about bringing elegant designs to life.
+            I am a user-driven software developer and product strategist passionate about bringing elegant designs to life!
             <br/><br/>
             {/* If you want to work together, connect with me! <a href="mailto:bellehlim@gmail.com">bellehlim@gmail.com</a> */}
           </p>
@@ -42,8 +42,8 @@ const IndexPage = () => {
         I have 2 years of industry experience developing impactful software where I worked closely alongside other teams to understand 
         the big picture of the what and why of exciting new features. I am always ready to dive in and figure out the best solution from multiple angles to drive the best result! 
         <br/><br/>
-        When I'm not in front of my laptop, you can find me wandering around Boston or New York exploring the cities, bouldering, hanging out 
-        with my dog, or cooking! (Check out my food IG <a href="https://www.instagram.com/yummyinmybelley">@yummyinmybelley</a>)
+        When I'm not in front of my laptop, you can find me wandering around Boston or New York exploring the cities, <a class ="blue-link" href="https://www.instagram.com/yummyinmybelley">
+          sharing my food adventures</a>, bouldering, or hanging out with my dog!
         </div>
       </section>
 

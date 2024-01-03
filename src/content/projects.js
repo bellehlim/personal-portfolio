@@ -15,13 +15,13 @@ const projects = [
       title: "Outlines Product Pitch",
       description: "Researched feature requests from Reddit, Discord, Appbot, and Zendesk and narrowed down top priority of an Outlines feature. Wrote a 7-page, comprehensive product pitch detailing competitor research, business purpose, and requirements. Worked alongside design to create flows and discussed with engineering about the building resources. Successfully placed on roadmap for 2024.",
       image: "zoomtool.png",
-      technologies: ["Product Pitch", "Competitor Research", "User Stories"]
+      technologies: ["User Stories"]
     },
     {
       title: "Wordle Wonders",
       description: "Visualization tool to enable analysis of metadata of the internet-famous game, Wordle, such as word choices and performance data. Developed via design cycle including user personas and usability testing.",
       image: "wordle.png",
-      technologies: ["Data Visualization", "JavaScript", "D3", "Python"]
+      technologies: ["Data Analysis", "JavaScript", "D3"]
     }
   ]
   export default projects;
