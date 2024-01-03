@@ -49,14 +49,11 @@ const IndexPage = () => {
 
           👇 Let's connect! 
           <div className="icons">
+            <a className="icon" href="mailto:bellehlim@gmail.com">
+              <img className="icon" src = {email} alt="Email"/>
+            </a>
             <a className="icon" href="https://www.linkedin.com/in/isobelle-lim/">
-              <img className="icon" src={linked} alt="LinkedIn"/>
-            </a>
-            <a className="icon" href="mailto:bellehlim@gmail.com">
-              <img className="icon" src={email}alt="Email"/>
-            </a>
-            <a className="icon" href="mailto:bellehlim@gmail.com">
-              <img className="icon" src={email}alt="Email"/>
+              <img className="icon" src = {linked} alt="LinkedIn"/>
             </a>
           </div>
         </div>
