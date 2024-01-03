@@ -20,7 +20,6 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "aos": "^2.3.4",
     "gatsby": "^5.13.0",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-google-fonts": "^1.0.1",
