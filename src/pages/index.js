@@ -6,7 +6,7 @@ import experiences from "../content/experiences"
 import ProjectCard from "../components/project-card"
 import ProjectListItem from "../components/project-list-item"
 import headshot from "../images/headshot.jpeg"
-import linkedin from "../images/wave.png"
+import linkedin from "../images/linked.png"
 import email from "../images/email.png"
 
 const IndexPage = () => {
@@ -52,7 +52,7 @@ const IndexPage = () => {
             <a className="icon" href="mailto:bellehlim@gmail.com">
               <img className="icon" src={email}alt="Email"/>
             </a>
-            <a className="icon" href="https://www.linkedin.com/in/isobelle-lim/" target="_blank">
+            <a className="icon" href="https://www.linkedin.com/in/isobelle-lim/">
               <img className="icon" src={linkedin} alt="LinkedIn"/>
             </a>
           </div>
