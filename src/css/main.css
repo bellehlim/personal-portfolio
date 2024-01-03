@@ -9,10 +9,12 @@ html {
 }
 
 body {
+  background: #e6e6e6;
   margin: 0px;
 }
 
 section {
+  background: #e6e6e6;
   padding: 15%;
 }
 
