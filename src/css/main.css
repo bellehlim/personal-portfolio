@@ -26,13 +26,12 @@ nav .container ul li a {
   float: right;
   text-decoration: none;
   padding: 0px 15px;
-  color: black;
+  color: #333;
   font-size: 14px;
 }
 
 section {
   padding: 15%;
-  padding-bottom: 0%;
 }
 
 #about {
@@ -60,6 +59,10 @@ b {
   font-weight: 700;
 }
 
+.blurb b {
+  color:#333;
+}
+
 .blue-link {
   color: #3b68d9;
   text-decoration: none;
@@ -67,14 +70,9 @@ b {
 }
 
 a {
-  color: black;
+  color: #333;
   text-decoration: none;
   display: inline-block;
-}
-
-.spacer {
-  height: 30px;
-  width: 100%;
 }
 
 .about-photo {
@@ -97,7 +95,8 @@ a {
 }
 
 .headline {
-  font-family: 'DM Serif Display';
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
   font-size: 30px;
   margin-bottom: 0px;
   color:rgb(20, 44, 80);
@@ -130,7 +129,6 @@ a {
   justify-content: space-between;
   width: 100%;
   margin-bottom: 20px;
-  color:rgb(20, 44, 80);
 }
 
 .experience-title {
@@ -141,13 +139,13 @@ a {
 
 .experience-subtitle {
   flex: 1;
-  margin: 0px 18px;
+  margin: 0px 24px;
   font-size: 14px;
 }
 
 .experience-date {
   text-align: right;
-  font-size: 16px;
+  font-size: 14px;
   color: #666;
 }
 
@@ -155,12 +153,20 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .project-image {
-  width: 70%;
   flex: 80%;
   margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+.project-image img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  float: right
 }
 
 .project-title {
@@ -178,7 +184,7 @@ a {
   color:rgb(20, 44, 80);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 
   #about {
     margin-bottom: 0px;
@@ -213,10 +219,9 @@ a {
 
   .project-card {
     flex-direction: column;
-    align-items: stretch;
   }
 
-  .project-image {
+  .project-image img {
     width: 100%;
     flex: none;
   }
@@ -233,7 +238,6 @@ a {
     margin-top: -30px;
   }
   
-
   .headline {
     font-size:20px;
   }
@@ -283,12 +287,11 @@ a {
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-    color:rgb(20, 44, 80);
   }
 
   .experience-date {
     text-align: left;
-    color: #666;
+    margin: 0px 24px;
   }
 }
 

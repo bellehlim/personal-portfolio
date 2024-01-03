@@ -17,7 +17,7 @@ const experiences = [
     },
     {
       icon: "🤝",
-      title: "Code 4 Community",
+      title: "Code4Community",
       subtitle: "Product Manager - Hands Across the Sea; This Star Won't Go Out",
       date: "Sept 2022 - present",
       length: "1.5 yrs",

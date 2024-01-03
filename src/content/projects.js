@@ -1,28 +1,30 @@
 const projects = [
   {
     title: "Outlines Product Pitch",
-    description: "Researched feature requests from Reddit, Discord, Appbot, and Zendesk and narrowed down top priority of an Outlines feature. Wrote a 7-page, comprehensive product pitch detailing competitor research, business purpose, and requirements. Worked alongside design to create flows and discussed with engineering about the building resources. Successfully placed on roadmap for 2024.",
-    image: "zoomtool.png",
+    description: "Researched feature requests and narrowed down top priority. Wrote a 7-page product pitch detailing competitor research, business purpose, and requirements. Worked with design and engineering on design flow and building resources. Successfully placed on the roadmap for 2024! 🚀",
+    image: "outlines.png",
     technologies: ["User Stories"],
-    readMoreLink: "#"
+    // readMoreLink: "#"
   },
   {
     title: "Note Switcher",
-    description: "A new Notability feature that needed product direction, execution to develop, and polish to optimize performance.",
+    description: "Refined an unfinished new feature following app-wide redesign. Introduced a mini-library into the note view for easy access to library functions. Identified analytics-informed product direction and implemented it. Led large refactor to optimize performance.",
     image: "noteswitcher.png",
-    technologies: ["Product Design", "Swift", "Redux"]
+    technologies: ["Product Design", "Swift", "Redux"],
+    readMoreLink: "https://support.gingerlabs.com/hc/en-us/articles/360003857512-Multi-Note-and-Note-Switcher"
   },
-  {
-    title: "Zoom Tool",
-    description: "A power user Notability tool that needed redesign, user research, and development. Led discussions on improvements to the designs and developed both long term requests for the tool as well as short term bug fixes.",
-    image: "zoomtool.png",
-    technologies: ["Product Design", "Swift"]
-  },
+  // {
+  //   title: "Zoom Tool",
+  //   description: "A power user Notability tool that needed redesign, user research, and development. Led discussions on improvements to the designs and developed both long term requests for the tool as well as short term bug fixes.",
+  //   image: "zoomtool.png",
+  //   technologies: ["Product Design", "Swift"]
+  // },
   {
     title: "Wordle Wonders",
-    description: "Visualization tool to enable analysis of metadata of the internet-famous game, Wordle, such as word choices and performance data. Developed via design cycle including user personas and usability testing.",
+    description: "Created visualization tool to analyze metadata of the internet-famous game, Wordle, such as word choices and performance data. Developed via design cycle including user personas and usability testing.",
     image: "wordle.png",
-    technologies: ["Data Analysis", "JavaScript", "D3"]
+    technologies: ["Data Analysis", "JavaScript", "D3"],
+    readMoreLink: "https://ds4200-s22.github.io/final-project-wordle_visualization/"
   }
 ]
 export default projects;

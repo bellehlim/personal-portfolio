@@ -1,6 +1,6 @@
 const minorProjects = [
     {
-      title: "👋 Personal Portfolio Website",
+      title: "👋 bellelim.com (this website!)",
       description: "Designed and created this website to showcase all of my experience and projects! Built with Gatsby.js and designed in InDesign with the goal of being clean, modular, and informative.",
       technologies: ["Gatsby", "JavaScript", "InDesign", "HTML", "CSS"]
     },
