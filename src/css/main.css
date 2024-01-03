@@ -12,40 +12,8 @@ body {
   margin: 0px;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #e6e6e6);
-  text-align: right;
-}
-nav .container ul li {
-  display: inline-block;
-}
-nav .container ul li a {
-  float: right;
-  text-decoration: none;
-  padding: 0px 15px;
-  color: #333;
-  font-size: 14px;
-}
-
 section {
   padding: 15%;
-}
-
-#about {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-#about b {
-  font-weight: 700;
-  font-style: italic;
-  color: #3b68d9;
 }
 
 p {
@@ -59,6 +27,29 @@ b {
   font-weight: 700;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.title {
+  float: left; 
+  width: 20%; 
+  font-size: 16px;
+  font-weight: 800;
+  color:rgb(20, 44, 80);
+  margin-bottom: 20px;
+}
+
+.blurb {
+  float: left; 
+  width: 80%; 
+  padding-bottom: 80px;
+  color:rgb(116, 130, 151);
+  margin: 0px;
+}
+
 .blurb b {
   color:#333;
 }
@@ -69,10 +60,46 @@ b {
   display: inline-block;
 }
 
-a {
-  color: #333;
-  text-decoration: none;
+/*///////////////////////////////////////////////*/
+/*///////////   NAVIGATION BAR   ////////////////*/
+/*///////////////////////////////////////////////*/
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), #e6e6e6);
+  text-align: right;
+}
+
+nav .container ul li {
   display: inline-block;
+}
+
+nav .container ul li a {
+  float: right;
+  text-decoration: none;
+  padding: 0px 15px;
+  color: #333;
+  font-size: 14px;
+}
+
+/*///////////////////////////////////////////////*/
+/*///////////   ABOUT SECTION    ////////////////*/
+/*///////////////////////////////////////////////*/
+
+#about {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#about b {
+  font-weight: 700;
+  font-style: italic;
+  color: #3b68d9;
 }
 
 .about-photo {
@@ -107,22 +134,10 @@ a {
   margin-top: -30px;
 }
 
-.title {
-  float: left; 
-  width: 20%; 
-  font-size: 16px;
-  font-weight: 800;
-  color:rgb(20, 44, 80);
-  margin-bottom: 20px;
-}
 
-.blurb {
-  float: left; 
-  width: 80%; 
-  padding-bottom: 80px;
-  color:rgb(116, 130, 151);
-  margin: 0px;
-}
+/*///////////////////////////////////////////////*/
+/*//////////   EXPERIENCE ENTRY   ///////////////*/
+/*///////////////////////////////////////////////*/
 
 .experience-entry {
   display: flex;
@@ -148,6 +163,10 @@ a {
   font-size: 14px;
   color: #666;
 }
+
+/*///////////////////////////////////////////////*/
+/*//////////     PROJECT ENTRY    ///////////////*/
+/*///////////////////////////////////////////////*/
 
 .project-card {
   display: flex;
@@ -183,6 +202,10 @@ a {
   font-size: 14px;
   color:rgb(20, 44, 80);
 }
+
+/*///////////////////////////////////////////////*/
+/*//////////     MEDIUM SIZE      ///////////////*/
+/*///////////////////////////////////////////////*/
 
 @media (max-width: 900px) {
 
@@ -246,6 +269,10 @@ a {
     font-size: 14px;
   }
 }
+
+/*///////////////////////////////////////////////*/
+/*//////////     SMALL  SIZE      ///////////////*/
+/*///////////////////////////////////////////////*/
 
 @media (max-width: 500px) {
   section {

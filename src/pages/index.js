@@ -11,6 +11,7 @@ import chevron from "../images/chevron.png"
 const IndexPage = () => {
   return (
     <main>
+      <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%221em%22 font-size=%2280%22>🎯</text></svg>"></link>
       <nav>
         <div class="container">
           <ul>
@@ -33,7 +34,7 @@ const IndexPage = () => {
       </section>
 
       <section>
-      <div class="title" id="background"> Background</div>
+      <div class="title" id="background"> About</div>
       <div class="blurb">
         I'm currently a student at Northeastern University studying computer science with a concentration in human-centered computing and a 
         minor in experience design - set to <b>graduate in May 2024</b>. I am passionate about building polished products end-to-end that prioritize the 
