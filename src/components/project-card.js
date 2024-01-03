@@ -11,14 +11,13 @@ const ProjectCard = ({ project }) => {
         <div className="project-details">
           <h3 className="project-title">{title}</h3>
           <p>{description}</p>
-          {/* <div className="technology-pills">
+          <div className="technology-pills">
             {technologies.map((tech, index) => (
               <span key={index} className="technology-pill">
-                {tech}
+                {/* {tech} */}
               </span>
             ))}
-          </div> */}
-          {/* <a class ="blue-link" href={readMoreLink}>Read More</a> */}
+          </div>
         </div>
       </div>
     </a>
