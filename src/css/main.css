@@ -347,6 +347,11 @@ nav .container ul li a {
   margin: 10px 5px;
 }
 
+.icon img {
+  width: 20px;
+  height: 20px;
+}
+
 .buttons {
   margin-top: 15px;
 }
