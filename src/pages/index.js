@@ -76,6 +76,7 @@ const IndexPage = () => {
           ))}
         </div>
       </section>
+      <div>Made with love, Belle</div>
     </main>
   )
 }
