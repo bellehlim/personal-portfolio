@@ -6,7 +6,7 @@ import experiences from "../content/experiences"
 import ProjectCard from "../components/project-card"
 import ProjectListItem from "../components/project-list-item"
 import headshot from "../images/headshot.jpeg"
-import linkedin from "../images/linkedin.png"
+import linkedin from "../images/linked.png"
 import email from "../images/email.png"
 
 const IndexPage = () => {
