@@ -236,8 +236,17 @@ nav .container ul li a {
   padding: 0.3rem 0.5rem;
   margin-right: 0.2rem;
   margin-top: 0.2rem;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 12px;
+}
+
+.read-more-link {
+  display: inline-block;
+  color: #3b68d9;
+  margin-bottom: 0.8rem;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+  font-size: 14px;
 }
 
 /*///////////////////////////////////////////////*/
