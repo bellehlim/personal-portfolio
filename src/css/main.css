@@ -137,6 +137,25 @@ nav .container ul li a {
   margin-top: -30px;
 }
 
+.icons {
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #3b68d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 5px;
+}
+
+.icon img {
+  width: 20px;
+  height: 20px;
+}
 
 /*///////////////////////////////////////////////*/
 /*//////////   EXPERIENCE ENTRY   ///////////////*/
@@ -203,6 +222,22 @@ nav .container ul li a {
   text-align: left;
   font-size: 14px;
   color:#333;
+}
+
+.technology-pills {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.technology-pill {
+  display: inline-block;
+  background-color: #cecdcd;
+  color: #333;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.2rem;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+  font-size: 12px;
 }
 
 /*///////////////////////////////////////////////*/
@@ -307,7 +342,7 @@ nav .container ul li a {
     color:#333;
   }
   .underline {
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: -10px;
   }
 
@@ -332,55 +367,7 @@ nav .container ul li a {
   .about-blurb img {
     width: 0px;
   }
-}
-
-.icons {
-  display: flex;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #3b68d9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 5px;
-}
-
-.icon img {
-  width: 20px;
-  height: 20px;
-}
-
-.buttons {
-  margin-top: 15px;
-}
-
-.buttons a {
-  display: inline-block;
-  padding: 10px 10px;
-  /* background-color: #3498db; */
-  color: #fff;
-  text-decoration: none;
-  /* border-radius: 510px; */
-}
-
-.buttons a:hover {
-  background-color: #2980b9;
-}
-
-.technology-pills {
-  display: flex;
-}
-
-.technology-pill {
-  background-color: #cecdcd;
-  color: #333;
-  padding: 0.3rem;
-  margin-right: 0.2rem;
-  margin-top: 0.2rem;
-  border-radius: 10px;
-  font-size: 12px;
+  .about-photo {
+    width: 0px;
+  }
 }
