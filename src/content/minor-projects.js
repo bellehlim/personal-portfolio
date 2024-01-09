@@ -17,6 +17,12 @@ const minorProjects = [
       technologies: ["Swift", "Redux", "Hackathon"]
     },
     {
+      title: "🥘 Seasoned Recipes",
+      description: "Designed and implemented a full-stack social platform for users to discover recipes and find groups to share recipes with usting the Tasty API for recipes. Developed with a full user schema and abilities to bookmark, post, and follow recipes and Foodie Groups.",
+      technologies: ["Full Stack", "Web Development", "TypeScript", "MongoDB"],
+      readMoreLink: "https://github.com/surbhi-gulati/seasoned-recipes"
+    },
+    {
       title: "🌟 Stickerability",
       description: "Integrated CoreML into the Notability app to enable smarter stickers that isolate the subject from the photo background.",
       technologies: ["Swift", "CoreML", "Hackathon"]
@@ -25,12 +31,6 @@ const minorProjects = [
       title: "📣 Lady In The Tube",
       description: "Integrated Siri Intents into Wellframe app to enable alternative reminder-creation flow.",
       technologies: ["Swift", "Accessibility", "Hackathon"]
-    },
-    {
-      title: "🥘 Seasoned Recipes",
-      description: "Designed and implemented a full-stack social platform for users to discover recipes and find groups to share recipes with usting the Tasty API for recipes. Developed with a full user schema and abilities to bookmark, post, and follow recipes and Foodie Groups.",
-      technologies: ["Full Stack", "Web Development", "TypeScript", "MongoDB"],
-      readMoreLink: "https://github.com/surbhi-gulati/seasoned-recipes"
     },
     {
       title: "🧮 Math Magic Mixer Solver",

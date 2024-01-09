@@ -37,7 +37,7 @@ const IndexPage = () => {
         <div className="title" id="background"> About</div>
         <div className="blurb">
           I'm currently a student at Northeastern University studying computer science with a concentration in human-centered computing and a 
-          minor in experience design - set to <b>graduate in May 2024</b>. I am passionate about building polished products end-to-end that prioritize the 
+          minor in experience design <b>graduating in May 2024</b>. I am passionate about building polished products end-to-end that prioritize the 
           user and have meaningful, measurable impact. 
           <br/><br/>
           I have <b>2 years of industry experience</b> developing impactful software where I worked closely alongside other teams to understand 
