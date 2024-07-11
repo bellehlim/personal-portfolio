@@ -17,6 +17,11 @@ const minorProjects = [
       technologies: ["Swift", "Redux", "Hackathon"]
     },
     {
+      title: "🚵‍♀️ Farsports Rebrand",
+      description: "Partook in brand identity and marketing project. Designed new asset and website layout options. Conducted industry and competitor research.",
+      technologies: ["AdobeXD", "Illustrator", "Google Analytics"]
+    },
+    {
       title: "🥘 Seasoned Recipes",
       description: "Designed and implemented a full-stack social platform for users to discover recipes and find groups to share recipes with usting the Tasty API for recipes. Developed with a full user schema and abilities to bookmark, post, and follow recipes and Foodie Groups.",
       technologies: ["Full Stack", "Web Development", "TypeScript", "MongoDB"],
