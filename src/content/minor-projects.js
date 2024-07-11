@@ -19,7 +19,8 @@ const minorProjects = [
     {
       title: "🚵‍♀️ Farsports Rebrand",
       description: "Partook in brand identity and marketing project. Designed new asset and website layout options. Conducted industry and competitor research.",
-      technologies: ["AdobeXD", "Illustrator", "Google Analytics"]
+      technologies: ["AdobeXD", "Illustrator", "Google Analytics"],
+      readMoreLink: "https://farsports.com"
     },
     {
       title: "🥘 Seasoned Recipes",
