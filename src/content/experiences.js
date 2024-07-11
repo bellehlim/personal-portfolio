@@ -67,7 +67,7 @@ const experiences = [
       icon: "🐾",
       title: "Northeastern University",
       subtitle: "Khoury College of Computer Science",
-      date: "2019 - present",
+      date: "2019 - 2024",
       length: "4.5 yrs",
       link: "https://www.northeastern.edu/"
     }
