@@ -12,6 +12,12 @@ const minorProjects = [
       readMoreLink: "#"
     },
     {
+      title: "🐝 Covey.Town Apiary",
+      description: "Implemented NYT Spelling Bee in virtual meeting space app Covey.Town.",
+      technologies: ["TypeScript", "Twilio", "PhaserJS", "Supabase"],
+      readMoreLink: "https://docs.google.com/document/d/1jbuij1jpaST2pbWwPZA2w6egZ30dLDV23LrV2qdXyBk/edit?usp=sharing"
+    },
+    {
       title: "🔎 Zoom Tool",
       description: "Collected user feedback about redesigned zoom tool - a power tool for more than 1-million users, pushed on need for improvements to the tool, led sprint in both planning and development for UI and functional improvements. Developed both fixes to recent redesign as well as long term requests.",
       technologies: ["Swift", "Product Management", "Design Iterations", "Backlog"],
