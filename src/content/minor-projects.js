@@ -1,5 +1,11 @@
 const minorProjects = [
     {
+      title: "🧹 Sweeper: Bluetooth Device Locator",
+      description: "Developed iOS app integrating track down nearby beacon devices based on RSSI and TX Power.",
+      technologies: ["CoreBluetooth", "CoreLocation", "SwiftUI"],
+      readMoreLink: "#"
+    },
+    {
       title: "👋 bellelim.com (this website!)",
       description: "Designed and created this website to showcase all of my experience and projects! Built with the goal of being clean, responsive, and informative.",
       technologies: ["GatsbyJS", "AdobeXD"],
